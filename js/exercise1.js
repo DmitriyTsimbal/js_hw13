@@ -15,11 +15,13 @@ const functionSolving = (num_i) => {
 }
 
 
-console.log(functionSolving(4))
 
 
 const recursiveFunctionSolving = (num_i) => {
     if (num_i <= 1 && num_i > -1) return 1
     return recursiveFunctionSolving(num_i - 1) + (2 * recursiveFunctionSolving(num_i - 2))
 }
-console.log(recursiveFunctionSolving(4))
+
+
+document.write(`<p>Answer 1: ${functionSolving(4)}</p>`)
+document.write(`<p>Answer 2: ${recursiveFunctionSolving(4)}</p>`)

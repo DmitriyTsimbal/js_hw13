@@ -19,5 +19,7 @@ const recursiveFunctionSolving = (num_i) => {
 }
 
 
-console.log(functionSolving(10))
-console.log(recursiveFunctionSolving(10))
+
+
+document.write(`<p>Answer 1: ${recursiveFunctionSolving(10)}</p>`)
+document.write(`<p>Answer 2: ${functionSolving(10)}</p>`)
